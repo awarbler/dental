@@ -18,7 +18,7 @@ Including another URLconf
 #  tell this to reference with our new file in the website app 
 
 from django.contrib import admin
-from django.urls import path, include 
+from django.urls import path, include
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns #added to try to get static towork 
 
 urlpatterns = [
